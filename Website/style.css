@@ -1,0 +1,328 @@
+*
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.full-page
+{
+    height: 150%;
+    
+	width: 100%;
+    
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/b5.jpeg);
+    
+	background-position: center;
+    
+	background-size: cover;
+    
+	position: absolute;
+}
+
+.sub-page
+
+{
+
+    width: 1350px;
+
+    height: 650px;
+
+    position: absolute;
+
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/b1.jpeg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    left: 60px;
+
+    top: 70px;
+
+}
+
+.navigation-bar
+
+{
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 30px;
+
+    padding-left: 80px;
+
+    padding-right: 30px;
+
+    padding-top: 50px;
+
+}
+
+.logo
+
+{
+
+    position: static;
+
+    margin-top: 10px;
+
+}
+
+.logo a
+
+{
+
+    text-decoration: underline;
+
+    color: midnightblue;
+
+    font-size: 50px;
+
+}
+
+nav
+
+{
+
+    flex: 1;
+
+    position: fixed;
+
+    right: 0;
+
+}
+
+nav ul 
+
+{
+
+    display: table;
+
+    list-style: initial;
+
+}
+
+nav ul li
+
+{
+
+    display: table;
+
+    margin-right: 25px;
+
+    margin-top: -100px;
+
+}
+
+nav ul li a
+
+{
+
+    text-decoration: underline;
+
+    font-size: 25px;
+
+    color: mistyrose;
+
+    font-family: serif;
+
+}
+
+nav ul li a:hover
+
+{
+
+    color: midnightblue;
+
+}
+
+.row
+
+{
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
+.col-1
+
+{
+
+    flex-basis: 40%;
+
+    min-width: 450px;
+
+}
+
+.form-box
+
+{
+
+    width: 350px;
+
+	height: 350px;
+
+	position: static;
+
+    top: 50px;
+
+    left: 35px;
+
+	background: rgba(0,0,0,0.4);
+
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.main-heading
+
+{
+
+    color: greenyellow;
+
+    padding-bottom: 20px;
+
+}
+
+.form
+
+{
+
+	position: relative;
+
+	margin: 0 auto 100px;
+
+	padding: 15px;
+
+    text-align: center;
+
+}
+
+
+.form input
+
+{
+
+	font-family: serif;
+
+	outline: none;
+
+    border: none;
+
+    border-bottom: 1px solid black;
+
+	width: 100%;
+
+	margin: 0 0 15px;
+
+	padding: 14px;
+
+	font-size: 14px;
+
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+
+.form button
+
+{
+
+	font-family: serif;
+
+	width: 100%;
+
+    color: white;
+
+	font-size: 14px;
+
+	cursor: pointer;
+
+	padding: 15px;
+
+    border: none;
+
+    background: teal;
+
+}
+
+.form .message
+
+{
+
+    font-size: 15px;
+
+	margin: 15px 0 0;
+
+    color: red;
+
+}
+
+.form .message a
+
+{
+
+	color: greenyellow;
+
+	text-decoration: underline;
+
+}
+
+.form .register-form{
+
+	display: none;
+
+}
+
+.defination
+
+{
+
+    text-align: center;
+
+    font-size: 30px;
+
+    color: antiquewhite;
+
+    font-family: 'Times', cursive;
+
+    padding-left: 0px;
+    
+    padding-right: 50px;
+
+}
